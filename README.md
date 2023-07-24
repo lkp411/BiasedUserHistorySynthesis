@@ -26,7 +26,7 @@ The default branch of this repository is called **BaseModel**. It contains the c
 **BUHS-GRU on MovieLens1m**   -  bash ml1m_ttnn_buhs_gru.sh \
 **BUHS-Mean on BookCrossing** -  bash bx_ttnn_buhs_mean.sh \
 **BUHS-Attn on BookCrossing** -  bash bx_ttnn_buhs_attn.sh \
-**BUHS-GRU on BookCrossing**  -  bash bx_ttnn_buhs_gru.sh \
+**BUHS-GRU on BookCrossing**  -  bash bx_ttnn_buhs_gru.sh 
 
 
 
