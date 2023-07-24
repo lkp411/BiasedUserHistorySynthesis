@@ -40,7 +40,7 @@ from torch.utils.data import DataLoader
 
 FLAGS = flags.FLAGS
 
-flags.DEFINE_string("dataset_dir", '/home/keshav/datasets', "directory to store and load datasets from")
+flags.DEFINE_string("dataset_dir", 'PATH/TO/DATASETS', "directory to store and load datasets from")
 flags.DEFINE_string("dataset", "ml", "Dataset to use")
 flags.DEFINE_string("device", "cpu", "Specify whether to use the CPU or GPU")
 flags.DEFINE_integer("batch_size", 64, "Batch Size")
