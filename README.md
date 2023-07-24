@@ -9,6 +9,12 @@ conda activate ENV_NAME \
 conda install pip \
 python3 -m pip install -r pip_requirements.txt
 
+## Downloading the datasets
+
+We use two public benchmark datasets: [MovieLens1m](https://grouplens.org/datasets/movielens/1m/) and [BookCrossing](http://www2.informatik.uni-freiburg.de/~cziegler/BX/). We suggest downloading the datasets into a datasets subdirectory as follows: PATH/TO/DATASETS_DIR/ml1m and PATH/TO/DATASETS/BookCrossing, and subsequently setting the following environment variable:\
+
+export DATASETS_DIR=PATH/TO/DATASETS
+
 
 ## Reproducing Results
 
