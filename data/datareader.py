@@ -260,7 +260,3 @@ def read_bx(datasets_dir=None):
             reindexed_ratings[user_id_reindexer[user_id]].append((isbn_to_idx_map[isbn_id], rating, user_id, isbn_id))
     
     return user_data, item_data, reindexed_ratings, len(user_location_to_idx), len(user_ages_to_idx), len(authors_to_idx_map), len(years_to_idxs_map), len(publisher_to_idxs_map)
-
-
-if __name__ == '__main__':
-    read_bx(datasets_dir='/home/keshav/datasets')
